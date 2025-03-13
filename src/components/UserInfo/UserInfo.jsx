@@ -6,6 +6,6 @@ export const UserInfo = ({ user }) => {
       {user?.name || ''}
     </a>
   ) : (
-    ''
+    <p>❌ user information is unavailable ❌</p>
   );
 };
